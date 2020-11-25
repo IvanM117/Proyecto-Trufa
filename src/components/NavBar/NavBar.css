@@ -1,0 +1,9 @@
+.Navbar{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.Navitem{
+    text-decoration: none;
+}
