@@ -8,13 +8,13 @@ const Navbar = (props) => {
       <div>
         <Nav className="Navbar">
           <div>
-             <a href="http://localhost:3000/"> <img width="350" height="100" src={ trufalogo }/> </a> 
+             <a href="http://localhost:3000/"> <img width="350" height="70" src={ trufalogo }/> </a> 
           </div>
-          <div>
-              <a href="http://localhost:3000/AboutUs"> Acerca de nosotros </a>
+          <div className="About">
+              <a className="ancore" href="http://localhost:3000/AboutUs"> Acerca de nosotros </a>
           </div>
-          <div>
-              <a href="http://localhost:3000/MakeBox"> Arma tu caja </a>
+          <div className="About">
+              <a className="ancore" href="http://localhost:3000/MakeBox"> Arma tu caja </a>
           </div>
         </Nav>
       </div>

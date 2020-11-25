@@ -7,3 +7,19 @@
 .Navitem{
     text-decoration: none;
 }
+.About{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    align-content: center;
+    align-items: baseline;
+}
+.ancore{
+    align-self: center;
+    text-decoration: none;
+    font-family: Tahoma;
+    color: black;
+}
